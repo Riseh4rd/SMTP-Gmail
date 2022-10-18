@@ -22,7 +22,6 @@ public class EmailUtil {
         try
         {
             MimeMessage msg = new MimeMessage(session);
-            //set message headers блять че за хуйня ничего не понимаю
             msg.addHeader("Content-type", "text/HTML; charset=UTF-8");
             msg.addHeader("format", "flowed");
             msg.addHeader("Content-Transfer-Encoding", "8bit");
